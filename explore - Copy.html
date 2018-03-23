@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Explore Myanmar |Skyride Travel & Tour</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+
+        /* Necessary for full page carousel*/
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        /* Navigation*/
+
+        .navbar {
+            background-color: transparent;
+        }
+
+        .top-nav-collapse {
+            background-color: #0d47a1;
+        }
+
+        footer.page-footer {
+            background-color: #929FBA;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #0d47a1;
+            }
+        }
+
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+
+        /* Carousel*/
+
+        .carousel,
+        .carousel-item,
+        .active {
+            height: 75%;
+        }
+
+        #carousel-example-2{
+          /* display: block;
+          margin-left: auto;
+          margin-right: auto; */
+          width: 75%;
+        }
+
+        @media (max-width: 776px) {
+            .carousel {
+                height: 100%;
+            }
+
+            #carousel-example-2{
+              width: 100%;
+            }
+        }
+
+        .carousel-item,
+        .active {
+            height: 100%;
+        }
+
+        .carousel-inner {
+            height: 100%;
+        }
+
+        /*Caption*/
+
+        .flex-center {
+            color: #fff;
+        }
+
+        .navbar .btn-group .dropdown-menu a:hover {
+            color: #000 !important;
+        }
+
+        .navbar .btn-group .dropdown-menu a:active {
+            color: #fff !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo-small.jpg" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item btn-group">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services
+                        </a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Tailor-made Tour for You</a>
+                            <a class="dropdown-item" href="#">Car Rental</a>
+                            <a class="dropdown-item" href="#">Air Ticketing</a>
+                            <a class="dropdown-item" href="#">Express Ticketing</a>
+                            <a class="dropdown-item" href="#">Hotel Booking</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item btn-group">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tour Packages
+                        </a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Adventure Tour</a>
+                            <a class="dropdown-item" href="#">Culture Tour</a>
+                            <a class="dropdown-item" href="#">Festival Tour</a>
+                            <a class="dropdown-item" href="#">Leisure Tour</a>
+                        </div>
+                    </li>
+
+                    <!-- <li class="nav-item btn-group">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore Distination
+                        </a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Yangon</a>
+                            <a class="dropdown-item" href="#">Nay Pyi Taw</a>
+                            <a class="dropdown-item" href="#">Bago</a>
+                            <a class="dropdown-item" href="#">Pyay (Prome)</a>
+                            <a class="dropdown-item" href="#">Mandalay</a>
+                            <a class="dropdown-item" href="#">Sagaing</a>
+                            <a class="dropdown-item" href="#">Ava(Inwa)</a>
+                            <a class="dropdown-item" href="#">Amarapura</a>
+                            <a class="dropdown-item" href="#">Pyin Oo Lwin (MayMyo)</a>
+                            <a class="dropdown-item" href="#">Hispaw</a>
+                            <a class="dropdown-item" href="#">Hispaw</a>
+                            <a class="dropdown-item" href="#">Kalaw</a>
+                            <a class="dropdown-item" href="#">Pindaya</a>
+                            <a class="dropdown-item" href="#">Inle Lake</a>
+                            <a class="dropdown-item" href="#">Taunggyi</a>
+                            <a class="dropdown-item" href="#">Malamyine</a>
+                            <a class="dropdown-item" href="#">Kyaik Hti Yo Pagoda (Golden Rock Pagoda)</a>
+                            <a class="dropdown-item" href="#">Myeik (Mergui)</a>
+                            <a class="dropdown-item" href="#">Kawthaung &amp; Andaman Club Golf/Casino (Thehtay Island)</a>
+                            <a class="dropdown-item" href="#">Chaung Tha Beach</a>
+                            <a class="dropdown-item" href="#">Ngwe Saung Beach</a>
+                            <a class="dropdown-item" href="#">Ngapali Beach</a>
+                        </div>
+                    </li> -->
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Explore Myanmar</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+
+                </ul>
+                <!-- <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-3" class="carousel slide carousel-fade white-text" data-ride="carousel" data-interval="5000">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-3" data-slide-to="1"></li>
+            <li data-target="#carousel-example-3" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!-- First slide -->
+            <div class="carousel-item active view hm-black-light" style="background-image: url('img/home-slider/skyride-home-slider1-min.jpg'); background-repeat: no-repeat; background-size: cover;  background-position: center;">
+                <!-- Caption -->
+                <div class="full-bg-img flex-center white-text">
+                    <ul class="animated fadeIn col-md-12">
+                        <li>
+                            <h1 class="h1-responsive font-bold">Special Tailor-made Service <br/> Only for you!</h1>
+                        </li>
+                        <li>
+                            <p>
+                              Let's create your own tour program by using our Tailor-made service.
+                            </p>
+                        </li>
+                        <li>
+                            <!-- <a target="_blank" href="#" class="btn btn-outline-white warning-color-dark btn-lg" rel="nofollow">Let's Do It!</a> -->
+                            <a href="#" type="button" class="btn btn-warning">Let's Do It!</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.Caption -->
+
+            </div>
+            <!--/.First slide-->
+
+            <!-- Second slide -->
+            <div class="carousel-item view hm-black-light" style="background-image: url('img/home-slider/skyride-home-slider2-min.jpg'); background-repeat: no-repeat; background-size: cover;background-position: center;">
+
+                <!-- Caption -->
+                <div class="full-bg-img flex-center white-text">
+                    <ul class="animated fadeIn col-md-12">
+                        <li>
+                            <h1 class="h1-responsive font-bold">
+                              Our Lovely Fair Price Tour Pacakges
+                            </h1>
+                        </li>
+                        <li>
+                            <p>
+                              Don't you know where to travel in Myanmar!
+                              Please check these best fair price tour packages for you.
+                            </p>
+                        </li>
+                        <li>
+                            <!-- <a target="_blank" href="#" class="btn btn-outline-white warning-color-dark btn-lg" rel="nofollow">Let's Check It!</a> -->
+                            <a href="#" type="button" class="btn btn-warning">Let's Check It!</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.Caption -->
+
+            </div>
+            <!--/.Second slide -->
+
+            <!-- Third slide -->
+            <div class="carousel-item view hm-black-slight" style="background-image: url('img/home-slider/skyride-home-slider3-min.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center; ">
+
+                <!-- Caption -->
+                <div class="full-bg-img flex-center white-text">
+                    <ul class="animated fadeIn col-md-12">
+                        <li>
+                            <h1 class="h1-responsive font-bold">Weekend in the nature - the best way to relax</h1>
+                        </li>
+                        <li>
+                            <p>8 Reasons why you need to spend more time in nature</p>
+                        </li>
+                        <li>
+                            <!-- <a target="_blank" href="#" class="btn btn-outline-white warning-color-dark btn-lg" rel="nofollow">see package</a> -->
+                            <a href="#" type="button" class="btn btn-warning">see package</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.Caption -->
+
+            </div>
+            <!--/.Third slide-->
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-3" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-3" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <br>
+
+    <!--Content-->
+    <div class="container">
+
+
+        <!-- Section: About -->
+        <section class="section about mb-5" id="about">
+
+            <!-- Secion heading -->
+            <h1 class="text-center font-bold mt-5 pt-2 mb-3 dark-grey-text wow fadeIn" data-wow-delay="0.2s">
+                Day Return Tours & Short Stay Tours
+            </h1>
+
+            <div class="row my-5 py-4 text-center">
+
+                <!--First columnn-->
+                <div class="col-lg-4 mb-r">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                        <!--Card image-->
+                        <img class="img-fluid" src="img/day-tour/day-return-tour-min.jpg" alt="">
+
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Title-->
+                            <h4 class="card-title">Day Return Tours</h4>
+                            <!--Text-->
+                            <p class="card-text mb-4">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione quisquam
+                            </p>
+                            <a href="#" class="font-bold" style="color:#FF8800;">View Packages</a>
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--First columnn-->
+
+                <!--Second columnn-->
+                <div class="col-lg-4 mb-r">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                        <!--Card image-->
+                        <img class="img-fluid" src="img/day-tour/sunset-cruise-tour-min.jpg" alt="">
+
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Title-->
+                            <h4 class="card-title">Sunset Cruise Tours</h4>
+                            <!--Text-->
+                            <p class="card-text mb-4">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione quisquam
+                            </p>
+                            <a href="#" class="font-bold" style="color:#FF8800;">View Packages</a>
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+                <!--Second columnn-->
+
+                <!--Third columnn-->
+                <div class="col-lg-4 mb-4 mb-r">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                        <!--Card image-->
+                        <img class="img-fluid" src="img/day-tour/sunset-cruise-dinner-tour-min.jpg" alt="">
+
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Title-->
+                            <h4 class="card-title">Sunset Cruise Dinner Tour</h4>
+                            <!--Text-->
+                            <p class="card-text mb-4">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione quisquam
+                            </p>
+                            <a href="#" class="font-bold" style="color:#FF8800;">View Packages</a>
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Third columnn-->
+
+                <!-- fourth columnn-->
+                <div class="col-lg-4 mb-4 mb-r">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                        <!--Card image-->
+                        <img class="img-fluid" src="img/day-tour/short-stay-tour-min.jpg" alt="">
+
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Title-->
+                            <h4 class="card-title">Short Stay Tour</h4>
+                            <!--Text-->
+                            <p class="card-text mb-4">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione quisquam
+                            </p>
+                            <a href="#" class="font-bold" style="color:#FF8800;">View Packages</a>
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- fourth columnn-->
+
+                <!-- fith columnn-->
+                <div class="col-lg-4 mb-4 mb-r">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                        <!--Card image-->
+                        <img class="img-fluid" src="img/day-tour/golf-tour-min.jpg" alt="">
+
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Title-->
+                            <h4 class="card-title">Yangon Golf Tour</h4>
+                            <!--Text-->
+                            <p class="card-text mb-4">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione quisquam
+                            </p>
+                            <a href="#" class="font-bold" style="color:#FF8800;">View Packages</a>
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- fith columnn-->
+            </div>
+
+
+
+
+            <!-- Section description -->
+            <!-- <p class="text-center font-up font-bold grey-text mb-5 pb-4 wow fadeIn" data-wow-delay="0.2s">Tourism students with love to travel</p> -->
+
+            <hr>
+
+            <!-- Grid row -->
+            <div class="row my-5 py-4">
+
+                <!-- Column column -->
+                <div class="col-xl-5 mr-auto mb-r col-lg-6 wow fadeIn" data-wow-delay="0.4s">
+
+                    <!-- Image -->
+<!--
+                    <img src="img/skyride-profile.png" class="img-fluid rounded z-depth-1-half"
+                        alt="My photo">
+-->
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DX48mJjL7oU" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+                <!-- Column column -->
+
+                <!-- Grid column column -->
+                <div class="col-xl-6 col-lg-6 wow fadeIn" data-wow-delay="0.4s">
+                    <!-- <h1 class="text-center font-bold dark-grey-text wow fadeIn" data-wow-delay="0.2s">
+                        Who We are
+                    </h1> -->
+                    <!-- Description -->
+                    <p align="justify">
+                      SkyRide Travel & Tours Co., Ltd. is registered as a local private company with the Ministry of Hotels & Tourism (Tour Licence Registration Code KHA 1804). We are a member of UMTA (Union of Myanmar Travel Association) in Myanmar.
+                    </p>
+
+                    <p align="justify">
+                      SkyRide Travel & Tours Co., Ltd. provides extensive travel services within Myanmar. Our staffs has a wealth of experience in all aspects of travel within Myanmar and are happy to work with you to provide the best possible time during your stay. We will take time to understand your requirements in order to design the best possible tour for you.
+                    </p>
+
+                    <!-- <ul>
+                        <li>Nemo animi soluta ratione</li>
+                        <li>Beatae maxime temporibus</li>
+                        <li>Consectetur adipisicing elit</li>
+                    </ul> -->
+
+                    <a href="#" type="button" class="btn btn-warning">Read More</a>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </section>
+        <!-- Section: About -->
+
+        <hr />
+        <!-- Our services -->
+        <h1 class="text-center font-bold mt-5 pt-2 mb-3 dark-grey-text wow fadeIn" data-wow-delay="0.2s">
+            Our Services
+        </h1>
+
+        <div class="row my-5 py-4 text-center">
+            <!--First columnn-->
+            <div class="col-lg-4 mb-r">
+                <!--Card-->
+                <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/service/tailor-made.png" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Tailor-made Tour Service</h4>
+                        <!--Text-->
+                        <p class="card-text mb-4">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="font-bold" style="color:#FF8800;">Read more</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--First columnn-->
+
+            <!--Second columnn-->
+            <div class="col-lg-4 mb-r">
+                <!--Card-->
+                <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/service/car-rentel.png" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Car Rental Service</h4>
+                        <!--Text-->
+                        <p class="card-text mb-4">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="font-bold" style="color:#FF8800;">Read more</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Second columnn-->
+
+            <!--Third columnn-->
+            <div class="col-lg-4 mb-4 mb-r">
+                <!--Card-->
+                <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/service/air-ticket.png" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Air Ticketing Service</h4>
+                        <!--Text-->
+                        <p class="card-text mb-4">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="font-bold" style="color:#FF8800;">Read more</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Third columnn-->
+
+            <!-- four columnn-->
+            <div class="col-lg-4 mb-4 mb-r">
+                <!--Card-->
+                <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/service/bus-ticket.png" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Express Ticketing Service</h4>
+                        <!--Text-->
+                        <p class="card-text mb-4">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="font-bold" style="color:#FF8800;">Read more</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!-- four columnn-->
+
+            <!-- five columnn-->
+            <div class="col-lg-4 mb-4 mb-r">
+                <!--Card-->
+                <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/service/hotel-booking.png" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Hotel Reservation Service</h4>
+                        <!--Text-->
+                        <p class="card-text mb-4">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="font-bold" style="color:#FF8800;">Read more</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!-- five columnn-->
+
+        </div>
+
+        <hr>
+
+        <!-- Popular Tour Packages -->
+
+            <h1 class="text-center font-bold mt-5 pt-2 mb-3 dark-grey-text wow fadeIn" data-wow-delay="0.2s">
+                Popular Tour Packages
+            </h1>
+
+            <!--Carousel Wrapper-->
+
+                  <div class="row text-center">
+                    <center>
+                      <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                          <!--Indicators-->
+                          <ol class="carousel-indicators">
+                              <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                              <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                          </ol>
+                          <!--/.Indicators-->
+                          <!--Slides-->
+                          <div class="carousel-inner" role="listbox">
+                              <div class="carousel-item active">
+                                  <div class="view hm-black-light">
+                                      <img class="d-block w-100" src="img/home-slider/skyride-home-slider1-min.jpg" alt="First slide" style="width:100%;">
+                                      <div class="mask"></div>
+                                  </div>
+                                  <div class="carousel-caption">
+                                      <h3 class="h3-responsive">Popular Tour Pacakge 1</h3>
+                                      <a href="#" type="button" class="btn btn-warning" >
+                                        View Package
+                                      </a>
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                  <!--Mask color-->
+                                  <div class="view hm-black-light">
+                                      <img class="d-block w-100" src="img/home-slider/skyride-home-slider2-min.jpg" alt="Second slide" style="width:100%;">
+                                      <div class="mask"></div>
+                                  </div>
+                                  <div class="carousel-caption">
+                                      <h3 class="h3-responsive">Popular Tour Pacakge 2</h3>
+                                      <a href="#" type="button" class="btn btn-warning" >
+                                        View Package
+                                      </a>
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                  <!--Mask color-->
+                                  <div class="view hm-black-light">
+                                      <img class="d-block w-100" src="img/home-slider/skyride-home-slider3-min.jpg" alt="Third slide" style="width:100%;">
+                                      <div class="mask"></div>
+                                  </div>
+                                  <div class="carousel-caption">
+                                      <h3 class="h3-responsive">Popular Tour Pacakge 3</h3>
+                                      <a href="#" type="button" class="btn btn-warning" >
+                                        View Package
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--/.Slides-->
+                          <!--Controls-->
+                          <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                          </a>
+                          <!--/.Controls-->
+                      </div>
+                    </center>
+                </div>
+
+            <!--/.Carousel Wrapper-->
+
+
+
+    </div>
+    <!--/.Content-->
+
+    <!-- Testing Google Map   -->
+    <!--Card-->
+
+        <!-- Card -->
+    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg); background-repeat:none; background-size:cover; background-position:center;">
+
+        <!-- Content -->
+        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+            <div>
+                <h5 class="pink-text"><i class="fa fa-pie-chart"></i> Marketing</h5>
+                <h3 class="card-title pt-2"><strong>This is card title</strong></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+                    optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
+                    Odit sed qui, dolorum!.</p>
+                <a class="btn btn-pink"><i class="fa fa-clone left"></i> View project</a>
+            </div>
+        </div>
+        <!-- Content -->
+    </div>
+    <!-- Card -->
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only  primary-color-dark">
+
+        <!--Footer Links-->
+        <div class="container">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="title font-bold mt-3 mb-4">Contact Us</h5>
+
+                    <h5>
+                      <i class="fa fa-map" aria-hidden="true"></i>
+                      Address
+                    </h5>
+                    <p>
+                      141 A, Baho Road (Khine Shwe Wah St.), Hledan, Kamayut Township, Yangon, Myanmar.
+                    </p>
+
+                    <h5>
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                      Phone
+                    </h5>
+                    <p>
+                      +95 9 5121 804, +95 1 531 449
+                    </p>
+
+                    <h5>
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                      Email
+                    </h5>
+                    <p>
+                      skyridetravelmyanmar@gmail.com
+                    </p>
+
+                </div>
+                <!--/.First column-->
+
+                <hr class="w-100 clearfix d-sm-none">
+
+                <!--Second column-->
+                <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title font-bold mt-3 mb-4">Member</h5>
+                      <div class="row">
+                          <div class="col mb-r">
+                              <img src="img/member/1.png" class="img-fluid" />
+                          </div>
+                          <div class="col mb-r">
+                              <img src="img/member/2.png" class="img-fluid" />
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col mb-r">
+                              <img src="img/member/3.png" class="img-fluid" />
+                          </div>
+                          <div class="col mb-r">
+                              <img src="img/member/master.png" class="img-fluid" />
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col mb-r">
+                              <img src="img/member/visa.png" class="img-fluid" />
+                          </div>
+                      </div>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="w-100 clearfix d-sm-none">
+
+                <!--Third column-->
+                <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title font-bold mt-3 mb-4">Information of Myanmar</h5>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              People
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                              Population
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                              Language
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                              Religion
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                              Culture
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                              Quick Facts
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                              More About Myanmar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="w-100 clearfix d-sm-none">
+
+                <!--Fourth column-->
+                <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title font-bold mt-3 mb-4">Follow me on</h5>
+                    <ul>
+                        <li>
+                            <a href="#!">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#!">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#!">Pinterest</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2018 Copyright:
+                <a href="#"> skyridemyanmar.com </a>
+                <!-- Proudly made by <a href="#"> Arkar</a> -->
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap dropdown -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
